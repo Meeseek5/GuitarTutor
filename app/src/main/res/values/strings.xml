@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- MainActivity-->
+    <string name="app_name">GuitarTutor</string>
+    <string name="title_name">Guitar Tutor</string>
+    <string name="btn_name_finger_placement">指法練習</string>
+    <string name="btn_name_test">測驗模式</string>
+    <string name="btn_name_song">曲目練習</string>
+
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="title_connecting">連線中...</string>
+    <string name="title_connected_to">連線至 <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">未連線</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">掃描其他裝置...</string>
+    <string name="select_device">選擇裝置連線</string>
+    <string name="none_paired">未配對裝置</string>
+    <string name="none_found">未找到裝置</string>
+    <string name="title_paired_devices">已配對裝置</string>
+    <string name="title_other_devices">其他可用裝置</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="secure_connect">Connect a device - Secure</string>
+    <string name="insecure_connect">Connect a device - Insecure</string>
+    <string name="discoverable">Make discoverable</string>
+
+    <string name="clarify_text">
+        本測驗總共有五種和弦，每次僅出現一種和弦在螢幕上，直到使用者彈奏正確才切換到下一個，最後會顯示彈奏完五個和弦所花費的時間。\n\n請使用者以最快的速度彈出相對應的和弦，藉此了解自己對和弦的熟悉度。
+    </string>
+
+
+    <string name="description_image_1">A Chord</string>
+    <string name="description_image_2">Am Chord</string>
+    <string name="description_image_3">Am7 Chord</string>
+    <string name="description_image_4">Am7G Chord</string>
+    <string name="description_image_5">C Chord</string>
+    <string name="description_image_6">C7 Chord</string>
+    <string name="description_image_7">Cadd9 Chord</string>
+    <string name="description_image_8">CM7 Chord</string>
+    <string name="description_image_9">D Chord</string>
+    <string name="description_image_10">D7 Chord</string>
+    <string name="description_image_11">Dm Chord</string>
+    <string name="description_image_12">Dm7 Chord</string>
+    <string name="description_image_13">Dm7G Chord</string>
+    <string name="description_image_14">E Chord</string>
+    <string name="description_image_15">E7 Chord</string>
+    <string name="description_image_16">Em Chord</string>
+    <string name="description_image_17">Em7 Chord</string>
+    <string name="description_image_18">Em7B Chord</string>
+    <string name="description_image_19">F Chord</string>
+    <string name="description_image_20">FM7 Chord</string>
+    <string name="description_image_21">G Chord</string>
+    <string name="description_image_22">G7 Chord</string>
+    <string name="description_zoom_touch_close">description_zoom_touch_close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

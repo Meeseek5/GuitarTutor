@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7F7F7F"
+    tools:context=".MainActivity">
+
+    <!--
+    <TextView
+        android:id="@+id/tvGuitarTutor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_name"
+        android:textSize="50sp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+     -->
+
+    <ImageView
+        android:id="@+id/imgGuitar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/guitar" />
+
+
+    <!--Chain head可選擇模式 -->
+    <Button
+        android:id="@+id/btFingerPlacement"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginStart="60dp"
+        android:text="@string/btn_name_finger_placement"
+        android:background="@drawable/button_design_main"
+        android:textSize="20sp"
+
+        android:drawableLeft="@drawable/select"
+
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toTopOf="@id/btTest"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgGuitar"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <!--
+    app:layout_constraintVertical_chainStyle="packed"
+    -->
+
+    <Button
+        android:id="@+id/btTest"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginStart="60dp"
+        android:text="@string/btn_name_test"
+        android:textSize="20sp"
+        android:background="@drawable/button_design_main"
+
+        android:drawableLeft="@drawable/pen"
+
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toTopOf="@id/btSong"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btFingerPlacement" />
+
+    <!--
+        android:drawableLeft="@drawable/pencil"
+    -->
+
+    <Button
+        android:id="@+id/btSong"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginStart="60dp"
+        android:text="@string/btn_name_song"
+        android:textSize="20sp"
+        android:background="@drawable/button_design_main"
+
+        android:drawableLeft="@drawable/music"
+
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btTest" />
+
+    <!--
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btSong" />
+        -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

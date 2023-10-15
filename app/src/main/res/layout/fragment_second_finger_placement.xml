@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarStyle="insideInset">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4"
+                android:padding="5dp">
+
+                <ImageButton
+                    android:id="@+id/thumb_button_a"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/a_chord"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/description_image_1" />
+
+                <ImageButton
+                    android:id="@+id/thumb_button_am"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/am_chord"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/description_image_2"/>
+
+                <ImageButton
+                    android:id="@+id/thumb_button_am7"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/am7_chord"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/description_image_3"/>
+
+                <ImageButton
+                    android:id="@+id/thumb_button_am7g"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/am7g_chord"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/description_image_4"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4"
+                android:padding="5dp">
+
+                <ImageButton
+                    android:id="@+id/thumb_button_c"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/c_chord"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/description_image_5"/>
+
+                <ImageButton
+                    android:id="@+id/thumb_button_c7"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/c7_chord"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/description_image_6"/>
+
+                <ImageButton
+                    android:id="@+id/thumb_button_cadd9"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/cadd9_chord"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/description_image_7"/>
+
+                <ImageButton
+                    android:id="@+id/thumb_button_cm7"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/cm7_chord"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/description_image_8"/>
+            </LinearLayout>
+
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4"
+                android:padding="5dp">
+
+                <ImageButton
+                    android:id="@+id/thumb_button_d"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/d_chord"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/description_image_9"/>
+
+                <ImageButton
+                    android:id="@+id/thumb_button_d7"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/d7_chord"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/description_image_10"/>
+
+                <ImageButton
+                    android:id="@+id/thumb_button_dm"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/dm_chord"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/description_image_11"/>
+
+                <ImageButton
+                    android:id="@+id/thumb_button_dm7"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/dm7_chord"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/description_image_12"/>
+            </LinearLayout>
+
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4"
+                android:padding="5dp">
+
+                <ImageButton
+                    android:id="@+id/thumb_button_dm7g"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/dm7g_chord"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/description_image_13"/>
+
+                <ImageButton
+                    android:id="@+id/thumb_button_e"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/e_chord"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/description_image_14"/>
+
+                <ImageButton
+                    android:id="@+id/thumb_button_e7"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/e7_chord"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/description_image_15"/>
+
+                <ImageButton
+                    android:id="@+id/thumb_button_em"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/em_chord"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/description_image_16"/>
+            </LinearLayout>
+
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4"
+                android:padding="5dp">
+
+                <ImageButton
+                    android:id="@+id/thumb_button_em7"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/em7_chord"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/description_image_17"/>
+
+                <ImageButton
+                    android:id="@+id/thumb_button_em7b"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/em7b_chord"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/description_image_18"/>
+
+                <ImageButton
+                    android:id="@+id/thumb_button_f"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/f_chord"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/description_image_19"/>
+
+                <ImageButton
+                    android:id="@+id/thumb_button_fm7"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/fm7_chord"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/description_image_20"/>
+            </LinearLayout>
+
+
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageButton
+                    android:id="@+id/thumb_button_g"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="82dp"
+                    android:layout_marginRight="1dp"
+                    android:src="@drawable/g_chord"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/description_image_21"/>
+
+                <ImageButton
+                    android:id="@+id/thumb_button_g7"
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/g7_chord"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@string/description_image_22"/>
+            </LinearLayout>
+
+            <!-- This initially-hidden ImageView will hold the expanded/zoomed version of
+                 the images above. Without transformations applied, it takes up the entire
+                 screen. To achieve the "zoom" animation, this view's bounds are animated
+                 from the bounds of the thumbnail button above, to its final laid-out
+                 bounds.
+                 -->
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/expanded_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            android:contentDescription="@string/description_zoom_touch_close" />
+    </FrameLayout>
+
+
+</ScrollView>
